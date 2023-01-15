@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+}
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+.first-section{
+    position: absolute;
+width: 100%;
+height: 1040px;
+left: 0px;
+top: 0px;
+background: rgba(255, 144, 14, 0.1);
+font-family: 'Work Sans', sans-serif;
+}
+.g3{
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0em;
+}
+.four-items{
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+display: flex;
+gap: 30px;
+padding-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.group{
+    text-align: center;
+    padding-top: 100px;
+}
+.brand-new{
+font-family: 'Work Sans', sans-serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+color: #131313;
+}
+.brand-new-desc{
+padding-top: 20px;
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+.btn-primary{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: orange;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    
+}
+.banner{
+    padding-top: 50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.grid{
+    margin-top: 1100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.feature{
+    margin-top: 1350px;
+}
+.all-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.quick-list{
+    font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.quick-desc{
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+padding-top: 20px;
+}
+
+.vl {
+    border-left: 6px solid #FF900E;
+    height: 106px;
+    width: 5px;
+   top: 1900px;
+    position: absolute;
+    left: 240px;
+  }
+
+  .vl-header{
+    position: absolute;
+width: 468px;
+height: 106px;
+left: 265px;
+top: 1900px;
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+  }
+
+  .vl-text{ 
+font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+position: absolute;
+width: 586px;
+height: 78px;
+left: 240px;
+top: 2020px;
+color: #727272;
+  }
+
+  .version-header{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #131313;
+  }
+
+  .version-text{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+  }
+
+  .box{
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 40px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(39, 37, 37, 0.2);
+border-style: none;
+padding-left: 20px;
+margin-left: 100px;
+  }
+
+  .experience{
+    /* margin-top: 350px; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+ .lady-image{
+    margin-top: 100px;
+    height: 790px;
+ }
+ .container{
+    margin-top: 350px;
+ }
+.year{
+    position: absolute;
+width: 342px;
+height: 200px;
+left: 1040px;
+top: 2604px;
+background: #FF900E;
+border-radius: 8px;
+border-style: none;
+}
+.year-10{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.experience{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.some{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+
+.some-text{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+padding-top: 30px;
+}
+.some-facts{
+    margin-top: 250px;
+    margin-left: 250px;
+}
+
+.box-1{
+    border: 1px solid #FF900E;
+border-radius: 8px;
+width: 200px;
+height: 150px;
+text-align: center;
+padding-top: 10px;
+transition: transform 2s;
+}
+
+.box-1:hover{
+    transform: rotate(360deg);
+    background-color: #FF900E;
+}
+
+.amount{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+color: #424242;
+}
+
+.category{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #727272;
+}
+
+.milestone{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.sponsors-header{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+.sponsors-text{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+padding-top: 30px;
+}
+.sponsors{
+    text-align: center;
+}
+
+.our-sponsors{
+    padding-top: 80px;
+}
+
+.company{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.footer{
+    padding-top: 80px;
+}
+.copyright{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #424242;
+border: 1px solid ;
+background: #FFF4E7;
+border-radius: 8px;
+height: 50px;
+padding-top: 25px;
+margin-left: 100px;
+margin-right: 100px;
+border-style: none;
+margin-bottom: 100px;
+}
+
+.bonus{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.company-motive{
+    font-family: 'Work Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+    
+}
+
+.company-text{
+    padding-top: 30px;
+}
+
+.company-pic{
+    width: 500px;
+}
+/* .rotated{
+    transform: rotate(45deg); 
+  background-color: pink;
+} */
