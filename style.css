@@ -306,7 +306,7 @@ padding-top: 30px;
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
-   
+   filter: grayscale(100%);
 }
 
 .footer{
@@ -339,10 +339,10 @@ margin-bottom: 100px;
 .company-motive{
     font-family: 'Work Sans',sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    color: #424242;
+    color: #141414;
     
 }
 
@@ -353,7 +353,12 @@ margin-bottom: 100px;
 .company-pic{
     width: 500px;
 }
-/* .rotated{
-    transform: rotate(45deg); 
-  background-color: pink;
-} */
+.goal{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Work Sans',sans-serif;
+    text-decoration: underline;
+    color: royalblue;
+}
