@@ -4,6 +4,8 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
+/* first section */
+
 .first-section{
     position: absolute;
 width: 100%;
@@ -105,6 +107,8 @@ font-size: 16px;
 line-height: 26px;
 padding-top: 20px;
 }
+
+/* features you will love section */
 
 .vl {
     border-left: 6px solid #FF900E;
@@ -215,6 +219,8 @@ text-align: center;
 color: #FFFFFF;
 }
 
+/* four box with all rotation and transition */
+
 .some{
     font-family: 'Work Sans',sans-serif;
 font-style: normal;
@@ -277,6 +283,8 @@ color: #727272;
     padding-top: 80px;
 }
 
+/* sponsors section */
+
 .sponsors-header{
     font-family: 'Work Sans',sans-serif;
 font-style: normal;
@@ -309,6 +317,8 @@ padding-top: 30px;
    filter: grayscale(100%);
 }
 
+/* footer section */
+
 .footer{
     padding-top: 80px;
 }
@@ -330,6 +340,8 @@ margin-right: 100px;
 border-style: none;
 margin-bottom: 100px;
 }
+
+/* bonus section */
 
 .bonus{
     padding-top: 100px;
@@ -361,4 +373,145 @@ margin-bottom: 100px;
     font-family: 'Work Sans',sans-serif;
     text-decoration: underline;
     color: royalblue;
+}
+
+.hide{
+    display: none;
+}
+/* For Mobile */
+@media only screen and (max-width: 688px) {
+   
+    .first-section{
+        
+     width: 100%;
+text-align: center;
+    }
+    .four-items{
+      
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 10px;
+        }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
+    .grid{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1100px;
+        
+    }
+    .all-grid{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .feature{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .vl {
+       top: 3150px;
+        position: absolute;
+        left: 10px;
+        height: 170px;
+      }
+      
+  .vl-header{
+    position: absolute;
+width: 350px;
+height: 106px;
+left: 15px;
+top: 3150px;
+  }
+  .vl-text{ 
+    width: 300px;
+    height: 78px;
+    left: 30px;
+    top: 3350px;
+      }
+      .box{
+        width: 250px;
+    padding-left: 20px;
+    margin-left: 55px;
+      }
+      .four-box{
+        margin-top: 100px;
+      }
+      #lady-gaga{
+        margin-top: 100px;
+        height: 790px;
+        width: 300px;
+     }
+     .experience{
+        /* margin-top: 350px; */
+        display: flex;
+        flex-direction: column;
+      }
+      .year{
+        position: absolute;
+    width: 252px;
+    height: 200px;
+    left: 15px;
+    top: 5284px;
+    background: #FF900E;
+    border-radius: 8px;
+    border-style: none;
+    }
+    .some-facts{
+        margin-top: 200px;
+        margin-left: 80px;
+        text-align: center;
+        width: 200px;
+    }
+    .milestone{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .box-1{
+    width: 200px;
+    height: 150px;
+   margin-left: 80px;
+    padding-top: 10px;
+    margin-top: 10px;
+    }
+    .company{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+       filter: grayscale(100%);
+       width: 250px;
+       margin-left: 60px;
+    }
+    .company>img{
+        padding-top: 30px;
+    }
+
+    .bonus{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #company-picture{
+        width: 200px;
+        margin-right: 115px;
+        padding-top: 30px;
+    }
+    .copyright{
+   
+width: 300px;
+        height: 100px;
+        padding-top: 25px;
+        margin-left: 35px;
+        margin-right: 100px;
+        border-style: none;
+        margin-bottom: 100px;
+        }
+        
 }
